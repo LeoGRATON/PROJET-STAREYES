@@ -1,0 +1,138 @@
+/* VARIABLES CSS*/
+:root{
+    /* COULEURS */
+    --bleu:#2A82DA;
+    --blanc:#FFF;
+    --grey:#F2F2F2;
+    --black: #1D1D1D;
+
+    /* ATRIBUTS */
+    --letter-spacing: 0.15rem;
+}
+
+/* TEXT */
+.title-outline{
+    color: var(--black);
+    text-shadow: -1px -1px 0 var(--blanc), 1px -1px 0 var(--blanc), -1px 1px 0 var(--blanc), 1px 1px 0 var(--blanc);
+}
+.title-bleu{
+    color: #2A82DA;
+}
+.big-title{
+    font-size: 7rem;
+    line-height: 8rem;
+    color: var(--black);
+}
+
+/* BOUTONS */
+.btn-bleu{
+    background-color: transparent;
+    border: none;
+    border-bottom: var(--bleu) 2px solid;
+    letter-spacing: var(--letter-spacing);
+    cursor: pointer;
+}
+.btn-bleu::after{
+ content:"\f061";
+ font-size: 16px;
+ font-family: 'FontAwesome';
+ padding-left: 0.7rem;
+ color: var(--black);
+}
+
+/* TAILLE DE GRILLE & POLICE */
+.body{
+    background-color: var(--black);
+    color: var(--blanc);
+    font-family: 'Bebas Neue';
+}
+.taille-grille{
+    width:70vw;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* MENU */
+.container__menu-navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.container__menu-navbar-img{
+    object-fit: contain;
+    margin-top: 2rem
+}
+.container__menu-navbar-list{
+    display: flex;
+    align-items: center;
+}
+.container__menu-navbar-list--ietm{
+    list-style: none;
+    margin-right:3rem;
+    padding: 3rem 0.7rem 0.7rem 0.7rem;
+    letter-spacing: var(--letter-spacing);
+}
+.container__menu-navbar-list--ietm:hover{
+    background-color: var(--blanc);
+    color: var(--black);
+    cursor: pointer;
+}
+.container__menu-navbar-btn{
+    padding: 1rem 2rem;
+    letter-spacing: var(--letter-spacing);
+    border: none;
+    margin-top: 2.2rem;
+    cursor: pointer;
+}
+.container__menu-navbar-btn:hover{
+    background-color: var(--bleu);
+    color: var(--blanc);
+}
+
+/* MENU INFO */
+.container__info{
+    margin-top: 17rem;
+    margin-bottom: 8rem;
+}
+.container__info-left{
+    position: absolute;
+    width: 60vw;
+    z-index: 1;
+    margin-top: -5rem;
+}
+.container__info-right{
+    display: flex;
+    justify-content: flex-end;
+}
+.container__info-left-title{
+    font-weight: 400;
+    line-height: 8.5rem;
+    font-size: 7rem ;
+}
+.container__info-left-text{
+    font-family: 'Outfit';
+    font-size: 1rem;
+}
+.container__info-left-text{
+    width: 34rem;
+    padding-bottom: 2rem;
+}
+
+.container__devis{
+    background-color: var(--blanc);
+    padding-top:7rem;
+    padding-bottom:7rem;
+}
+.container__devis-info{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+}
+.container__devis-infos-text{
+    width: 50%;
+}
+.container__devis-infos-text--p{
+    font-size: 1rem;
+    font-family: 'Outfit';
+    color: var(--black);
+    padding: 5rem 0 1.5rem 0;
+}
