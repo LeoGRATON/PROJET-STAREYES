@@ -355,6 +355,7 @@ align-items: flex-end;
 .container__chifres-all{
     display: flex;
     gap: 2rem;
+    justify-content: space-between;
 }
 .container__chifres-all-left{
     width: 60%;
