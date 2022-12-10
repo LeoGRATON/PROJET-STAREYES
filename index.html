@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/106f6bd51a.js" crossorigin="anonymous"></script>
@@ -20,6 +21,7 @@
         <header class="container__menu">
             <div class="container__menu-navbar">
                 <img src="./integration/logo-stareyes.png" alt="logo stareyes" class="container__menu-navbar-img">
+                <label for="" class="menu-burger">MENU</label>
                 <ul class="container__menu-navbar-list">
                     <li class="container__menu-navbar-list--ietm">ACCUEIL</li>
                     <li class="container__menu-navbar-list--ietm">PRÉSENTATION</li>
@@ -98,13 +100,6 @@
                 <div class="container__project-right-card">
                     <img src="./integration/icon-2.svg" alt="icon de developpement web" class="container__project-right-card-img">
                     <h3 class="container__project-right-card-h3 title-h3">Refonte de votre site internet</h3>
-                    <p class="container__project-right-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis magna nec dignissim luctus. Etiam est felis, porttitor.</p>
-                </div>
-
-                <!-- SECTION PROJET DROITE CARD -->
-                <div class="container__project-right-card">
-                    <img src="./integration/icon-3.svg" alt="icon de developpement web" class="container__project-right-card-img">
-                    <h3 class="container__project-right-card-h3 title-h3">Communication visuelle</h3>
                     <p class="container__project-right-card-p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sagittis magna nec dignissim luctus. Etiam est felis, porttitor.</p>
                 </div>
             </div>
@@ -219,14 +214,14 @@
         </section>
 
         <!-- SECTION MARQUE -->
-        <section class="container__marque">
+<!--         <section class="container__marque">
             <img src="./integration/WordPress-defonce.png" alt="le logo de wordpress">
             <img src="./integration/Adobe_defonce.png" alt="le logo de adobe">
             <img src="./integration/elementor-defonce.png" alt="le logo de elementor">
             <img src="./integration/webflow-defonce.png" alt="le logo de webflow">
             <img src="./integration/Awwards-defonce.png" alt="le logo de awwwards">
             <img src="./integration/behance-defonce.png" alt="le logo de behance">
-        </section>
+        </section> -->
 
         <!-- SECTION CONTACT -->
         <section class="container__contact">
@@ -253,30 +248,36 @@
                     </div>
                 </div>
                 <div class="container__footer-site-1-4">
-                    <h4 class="title-h4">nos prestations</h4>
+                    <h4 class="title-h4">informations</h4>
                     <div class="container__footer-site-1-4-link">
-                        <a href="#" class="container__footer-site-1-4-link-a">Création de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Refonte de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Communication visuelle</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Community management</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">L'agence</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">Simulateur de devis</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">Prendre contact avec nous</a>
+                    </div>
+                </div>
+                <div class="container__footer-site-1-4">
+                    <h4 class="title-h4">nos références</h4>
+                    <div class="container__footer-site-1-4-link">
+                        <a href="#" class="container__footer-site-1-4-link-a">My shoes</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">Projet station</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">Ms motors</a>
+                        <a href="#" class="container__footer-site-1-4-link-a">Riney</a>
                     </div>
                 </div>
                 <div class="container__footer-site-1-4">
                     <h4 class="title-h4">nos prestations</h4>
                     <div class="container__footer-site-1-4-link">
-                        <a href="#" class="container__footer-site-1-4-link-a">Création de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Refonte de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Communication visuelle</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Community management</a>
-                    </div>
-                </div>
-                <div class="container__footer-site-1-4">
-                    <h4 class="title-h4">nos prestations</h4>
-                    <div class="container__footer-site-1-4-link">
-                        <a href="#" class="container__footer-site-1-4-link-a">Création de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Refonte de site internet</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Communication visuelle</a>
-                        <a href="#" class="container__footer-site-1-4-link-a">Community management</a>
+                        <a href="#" class="container__footer-site-1-4-link-a icon-phone">06 00 00 00</a>
+                        <a href="#" class="container__footer-site-1-4-link-a icon-mail">contact@stareyes.Fr</a>
+                        <div class="lien-rs">
+                            <a href="#" class="icon-rs icon-rs-fb"></a>
+                            <a href="#" class="icon-rs icon-rs-twitter"></a>
+                            <a href="#" class="icon-rs icon-rs-insta"></a>
+                        </div>
+<!--                         <div class="bloc-newsletter">
+                            <input type="email" placeholder="S'inscrire à la newsletter" class="input-newsletter">
+                            <button type="submit" class="btn-arrow-send"></button>
+                        </div> -->
                     </div>
                 </div>
             </section>
